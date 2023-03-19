@@ -1,0 +1,17 @@
+import pyautogui
+import time
+pyautogui.press('win')
+pyautogui.write('idle')
+pyautogui.moveTo(x=155, y=162)
+time.sleep(2)
+pyautogui.click(button='right')
+pyautogui.moveTo(x=359, y=212)
+pyautogui.click()
+pyautogui.moveTo(x=352, y=256)
+pyautogui.click()
+pyautogui.click()
+pyautogui.moveTo(x=583, y=37)
+pyautogui.click()
+pyautogui.write('cmd')
+pyautogui.press('enter')
+pyautogui.write('pip install ')
